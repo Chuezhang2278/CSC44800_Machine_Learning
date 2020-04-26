@@ -25,9 +25,11 @@ so fairness is preserved for each game regardless of whichever side of the map y
 > Data  
 1. Rather than gathering the data of every single player present in the game, this data is only for one specific player. This is important to note 
 due to the fact that teammates are variables that contribute to the win/loss rate as every player has a different mindset and skill level.
+
 > Time
 1. Time is integral in this game as many objectives such as mobs have different spawn/respawn timers and depending on when a player acquires certain objectives boosts overall speed and efficiency. 
 It is also important to note that some champions may perform better later into the game (I.E: Past 25 minutes) and some may perform better earlier in the game, performing worse later in the game.
+
 > [Champions](#Champion) and [Lane](#Lane)
 1. In this game there are different lanes and with different lanes there are different [roles](#Roles) and each champion play towards a different role. Most of the data retrieved was for a special gamemode that disregarded the lane and everyones champion was the same.
 
@@ -37,10 +39,13 @@ The importance of listing constraints is so that this proejct could be taken wit
 ## What are the dependencies of this project?
 >[Riot API](https://developer.riotgames.com/) 
  - What is Riot API?
-    1. Riot API is the interface used to retrieve data for this project. None of the data used was fabricated as the player in question has legitamately played through 100 different rounds of the game
+    1. Riot API is the interface used to retrieve data for this project. None of the data used was fabricated as the player in 
+    question has legitamately played through 100 different rounds of the game
+    
 >[Riot watcher](https://github.com/pseudonym117/Riot-Watcher) 
  - What is Riot watcher?
     1. Riot watcher is the module used in this project to simply the methods of retrieving data 
+    
 >[Pandas](https://pandas.pydata.org/)
  - What is pandas?
     1. Pandas is a library used for data maniuplation and analysis, specifically it was used in this proeject for creating dataframes and exporting data as .csv files
